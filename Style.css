@@ -67,7 +67,7 @@ html body {
 }
 
 .content{
-    width: 1500px; 
+    width: 2500px; 
     display: flex;  
     flex-wrap: wrap;
 }
@@ -81,22 +81,39 @@ html body {
     text-align: left;
 }
 
+.Search{
+    margin-bottom: 0px;
+}
 
 
 .main-nav-bar{
     text-align: center;
 }
 
+.car :hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
 .main-section{
-    width: 450px;
+    width: 350px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
 }
 
+.Review{
+    font-weight: bold;
+    margin-left: 40px;
+}
 .mini-section{
     flex: 1 1 160px;
 
+}
+
+.Emil-signup{
+    font-weight: bold;
+    margin-left: 200px;
 }
 
 .main-nav-bar li{
