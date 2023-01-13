@@ -16,6 +16,7 @@ html body {
     margin-left: 50px;
 }
 
+
 .nav-bar li{
     list-style-type: none;
     margin: 10px;
@@ -49,7 +50,14 @@ html body {
 .main-footer{
     background-color: rgba(40, 110, 189, 0.1);
     color: rgb(0, 0, 0);
-    padding: .25em 0;
+    bottom: 0px;
+}
+
+.input-fields{
+    margin-left: 40px;
+    display: inline-block;
+    margin-bottom: 50px;
+    width: 100px;
 }
 
 .main-header{

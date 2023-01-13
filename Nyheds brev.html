@@ -1,14 +1,20 @@
 <html>
     <title>Bil aktions hjemmeside</title>
+    <link rel="stylesheet" href="Style.css">
     <head>
-        <h1>Vores nyhedsbrev</h1>
+        <header class="main-header">
+            <h1 class="Name" >Vores nyhedsbrev</h1>
+        </header>
         <body>
-            <nav>
-                <a href="omOs.html"><ul>Om bil aktion</ul></a>
-                <a href="Index.html"><ul>Forside</ul></a>
-                <a href="Hvad er bil aktion.html"><ul>Hvad er bil aktion</ul></a>
-                <a href="kontakt.html"><ul>Kontakt</ul></a>
-                <a href="Nyheds brev.html"><ul>Nyheds brev</ul></a>
+            <nav class="main-nav-bar nav-bar ">
+                <ul>
+                <a href="omOs.html"><li>Om bil aktion</li></a>
+                <a href="Index.html"><li>Forside</li></a>
+                <a href="Hvad er bil aktion.html"><li>Hvad er bil aktion</li></a>
+                <a href="kontakt.html"><li>Kontakt</li></a>
+                <a href="Nyheds brev.html"><li>Nyheds brev</li></a>
+                <hr>
+                </ul>
             </nav>
             <p>
                 Vi er glade for at du er interasseret i at salge din bil paa debbe hjemmeside, du er velkommen til at give os din email adresse
@@ -36,28 +42,68 @@
             <label>
                 <input type="email" name="emial">
             </label>
-            <footer>
+            <footer class="main-footer">
                 <h3>Hvorfor Bil aktionen</h3>
-                <nav>
-                    <li><a href="https://www.youtube.com/?yt"><img src="Billeder/Sociale mediaer/YT.jpg" width="100" height="100"></a></li>
-                    <li><a href="https://www.facebook.com/"><img src="Billeder/Sociale mediaer/FB.jpg" width="100" height="100"></a></li>
-                    <li><a href="https://twitter.com/"><img src="Billeder/Sociale mediaer/Twitter.jpg" width="100" height="100"></a></li>
-                    <li><a href=https://www.instagram.com/"><img src="Billeder/Sociale mediaer/Instagram.jpg" width="100" height="100"></a></li>
-                </nav>
-                <strong>10k salg</strong>
-                <span>Vi har olgt over 10k biler og er ledende i bil salg</span>
-                <br>
-                <strong>Medlemmer</strong>
-                <span>250k+ medlemmere</span>
-                <br>
-                <strong>Værdig af biler solgt</strong>
-                <span> vi er stoldt at kunne sige at vi har solgt for 1m kroner</span>
-                <br>
-                <strong>salgs rate</strong>
-                <span>Vi har en stiegden slagsrate, og selger lidt over 100 biler pr dag</span>
-                <br>
-                <strong>Anmeldelse</strong>
-                <span>Bla bla bla... jeg elsker denne hjemmesider 10/10</span>
+                <div class="content">
+                    <div class="hej">
+                        <nav class="nav-bar">
+                        <li><a href="https://www.youtube.com/?yt"><img src="Billeder/Sociale mediaer/YT.jpg" width="100" height="100"></a></li>
+                        <li><a href="https://www.facebook.com/"><img src="Billeder/Sociale mediaer/FB.jpg" width="100" height="100"></a></li>
+                        <li><a href="https://twitter.com/"><img src="Billeder/Sociale mediaer/Twitter.jpg" width="100" height="100"></a></li>
+                        <li><a href=https://www.instagram.com/"><img src="Billeder/Sociale mediaer/Instagram.jpg" width="100" height="100"></a></li>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="mini-section">
+                            <br>
+                            <span class="mini-sec-title">10k salg</span>
+                            <br>
+                            <span class="title-dep">Vi har solgt over 10k biler og er ledende i bil salg</span>
+                            <br>
+                        </div>
+                        <div class="mini-section">
+                            <br>
+                            <span class="mini-sec-title">Medlemmer</span>
+                            <br>
+                            <span class="title-dep">250k+ medlemmere</span>
+                            <br>
+                        </div>
+        
+                        <div class="mini-section">
+                            <br>
+                            <span class="mini-sec-title">Værdig af biler solgt</span>
+                            <br>
+                            <span class="title-dep">vi er stoldt at kunne sige at vi har solgt for 1m kroner</span>
+                            <br>
+                        </div>
+        
+                        <div class="mini-section">
+                            <br>
+                            <span class="mini-sec-title">10k salg</span>
+                            <br>
+                            <span class="title-dep">Vi har solgt over 10k biler og er ledende i bil salg</span>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="Review">
+                        <span>Anmeldelse af kennedy:</span>
+                        <br>
+                        <span>This site is so great, that i recomended it to all my friends</span>
+                        <br>
+                        <img src="Billeder/Review/5-Gold-Stars.jpg" width="200" height="100">
+                    </div>
+                    <div class="Emil-signup">
+                        <span>Få vores daglige nyhedsbrev</span>
+                        <br>
+                        <form>
+                            <label>emil:
+                                <input type="emil">
+                            </label>
+                        </form>
+                        <br>
+                        <button type="button">Abonnere</button>
+                    </div>
+                </div>
             </footer>
         </body>
     
