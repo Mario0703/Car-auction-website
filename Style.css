@@ -36,6 +36,11 @@ html body {
 
 }
 
+.other-footer{
+    position: absolute;
+    width: 3000px;
+}
+
 .Name{
     color: #ffff;
     height: 100px;
@@ -47,16 +52,29 @@ html body {
 
 }
 
+
 .main-footer{
-    background-color: rgba(40, 110, 189, 0.1);
+    background-color: rgba(0, 119, 255, 0.1);
     color: rgb(0, 0, 0);
     bottom: 0px;
+}
+
+.btn{
+    border-radius: 0.5em;
+    width: 140px;
+    height: 60px;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: green;
 }
 
 .input-fields{
     margin-left: 40px;
     display: inline-block;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
     width: 100px;
 }
 
@@ -122,6 +140,12 @@ html body {
 .Emil-signup{
     font-weight: bold;
     margin-left: 200px;
+}
+
+.Image-reviews{
+    width: 400px;
+    height: 100px;
+
 }
 
 .main-nav-bar li{
